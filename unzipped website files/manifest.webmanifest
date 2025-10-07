@@ -1,0 +1,9 @@
+{
+  "name": "Optimize Engineering Co. LLC",
+  "short_name": "Optimize Eng",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0d3b66",
+  "background_color": "#ffffff",
+  "icons": []
+}

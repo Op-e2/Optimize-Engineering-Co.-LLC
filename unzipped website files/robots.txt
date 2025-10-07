@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://optimize-engineering.netlify.app/sitemap.xml
