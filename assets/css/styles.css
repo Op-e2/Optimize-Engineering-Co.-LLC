@@ -23,7 +23,8 @@ nav a.active, nav a:hover{background:#f3f4f6;text-decoration:none}
 /* Hero */
 .hero{padding:3rem 0 2rem}
 .hero-banner{
-  background-image:url('/assets/img/hero_banner.jpg');
+  /* FIXED: relative path from assets/css/ -> assets/img/ */
+  background-image:url('../img/hero_banner.jpg');
   background-size:cover;
   background-position:center;
   color:white;
@@ -148,3 +149,4 @@ button[type="submit"]:active{transform:translateY(1px)}
 @media (max-width:650px){
   .contact .card{padding:1.1rem}
 }
+
