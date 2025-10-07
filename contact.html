@@ -75,11 +75,16 @@
         <div class="card">
           <h2>Request a Quote</h2>
 
-          <!-- ✅ FormSubmit integration (GitHub Pages compatible) -->
-<form action="https://formsubmit.co/grichardpe@gmail.com" method="POST" class="contact-form">
+        <!-- ✅ FormSubmit integration (GitHub Pages compatible) -->
+<form name="quote" action="https://formsubmit.co/grichardpe%40gmail.com" method="POST" class="contact-form">
   <!-- FormSubmit settings -->
-  <input type="hidden" name="_next" value="./thank-you.html">
+  <input type="hidden" name="_next" value="https://joshuagordon945-wq.github.io/Optimize-Engineering-Co.-LLC/thank-you.html">
   <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="New Quote Request – Optimize Engineering">
+  <input type="hidden" name="_template" value="table">
+  <!-- Optional: CC yourself so you can verify delivery immediately -->
+  <input type="hidden" name="_cc" value="joshuagordon945@gmail.com">
+  <!-- Honeypot spam trap -->
   <input type="text" name="_honey" style="display:none">
 
   <div class="form-row">
